@@ -55,3 +55,15 @@ def decode_word(str)
 end
 
 puts decode_word("-- -.--")
+
+def decode_message(message)
+  splitMessage = message.split("   ")
+  result = ""
+  splitMessage.each do |word|
+    result.concat(decode_word(word))
+    result.concat(" ") if word != splitMessage.last
+  end
+  return result.upcase()
+end
+
+puts decode_message("-- -.--   -. .- -- .")
