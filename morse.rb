@@ -39,9 +39,9 @@
     " " => " "
     }
 
-  def decode_char(string)
-      return (@dictionary.key(string)).upcase()
-  end
+def decode_char(string)
+    return (@dictionary.key(string)).upcase()
+end
 
 puts decode_char('--')
 
