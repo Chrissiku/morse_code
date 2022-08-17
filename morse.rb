@@ -40,8 +40,18 @@
     }
 
   def decode_char(string)
-      return @dictionary.key(string)
+      return (@dictionary.key(string)).upcase()
   end
 
 puts decode_char('--')
 
+def decode_word(str)
+  splitStr = str.split
+  word = ""
+  splitStr.each do |char|
+    word.concat(decode_char(char))
+  end
+  return word.upcase()
+end
+
+puts decode_word("-- -.--")
