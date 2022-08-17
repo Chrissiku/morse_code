@@ -1,0 +1,20 @@
+{
+  "name": "morse_code",
+  "version": "1.0.0",
+  "description": "If you are not familiar with linters and GitHub Actions, read [root level README](../README.md).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Chrissiku/morse_code.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Chrissiku/morse_code/issues"
+  },
+  "homepage": "https://github.com/Chrissiku/morse_code#readme"
+}
