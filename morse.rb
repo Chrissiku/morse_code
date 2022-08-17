@@ -38,3 +38,10 @@
     "0" => "-----",
     " " => " "
     }
+
+  def decode_char(string)
+      return @dictionary.key(string)
+  end
+
+puts decode_char('--')
+
